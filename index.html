@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nipuna Dananjaya | Web Designer & Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">NIPUNA</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <h1>I'm <span class="highlight">NIPUNA </span></h1>
+      <div class="hero-text">
+        <p>Creative <span class="typewrite" data-period="2000" data-type='["Web Designer", "Developer", "UI/UX Designer"]'></span></p>
+      </div>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">My Work</a>
+        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+        <a href="#"><i class="fab fa-behance"></i></a>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </header>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-container">
+            <img src="about.png" alt="Nuwan's Photo">
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Hello! I'm Nipuna Dananjaya</h3>
+          <p>I'm a passionate web designer and developer with a keen eye for detail and a love for creating beautiful, functional websites. With a focus on user experience and modern design principles, I transform ideas into digital realities.</p>
+          <p>I specialize in responsive web design, UI/UX, and front-end development. My approach combines creativity with technical expertise to deliver websites that not only look great but perform exceptionally.</p>
+          <div class="personal-info">
+            <div class="info-item">
+              <span class="info-title">Experience:</span>
+              <span class="info-value">1+ Years</span>
+            </div>
+            <div class="info-item">
+              <span class="info-title">Location:</span>
+              <span class="info-value">Arama Road,Amunugama,Nikadalupotha</span>
+            </div>
+            <div class="info-item">
+              <span class="info-title">Email:</span>
+              <span class="info-value">ndjdesign.m@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-title">Availability:</span>
+              <span class="info-value">Open for Freelance</span>
+            </div>
+          </div>
+          <a href="#" class="btn primary-btn">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h3>HTML5</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 95%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h3>CSS3</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fab fa-js"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fab fa-react"></i>
+          </div>
+          <h3>React</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fab fa-figma"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Responsive Design</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 95%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="project-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Design</button>
+        <button class="filter-btn" data-filter="app">UI/UX</button>
+        <button class="filter-btn" data-filter="brand">Branding</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <img src="project1.jpg" alt="Portfolio Website">
+          </div>
+          <div class="project-info">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio to showcase my works.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Live</a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="app">
+          <div class="project-img">
+            <img src="project1.jpg" alt="Landing Page">
+          </div>
+          <div class="project-info">
+            <h3>Landing Page</h3>
+            <p>Responsive product landing page for marketing.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>SASS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Live</a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="brand">
+          <div class="project-img">
+            <img src="project1.jpg" alt="Business Website">
+          </div>
+          <div class="project-info">
+            <h3>Business Website</h3>
+            <p>Website design for a local business brand.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>React</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Live</a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <img src="project1.jpg" alt="E-commerce Site">
+          </div>
+          <div class="project-info">
+            <h3>E-commerce Site</h3>
+            <p>Online store with product catalog and cart functionality.</p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Live</a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="app">
+          <div class="project-img">
+            <img src="project1.jpg" alt="Weather App">
+          </div>
+          <div class="project-info">
+            <h3>Weather App</h3>
+            <p>Real-time weather forecast application with location services.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>API</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Live</a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="brand">
+          <div class="project-img">
+            <img src="project1.jpg" alt="Restaurant Website">
+          </div>
+          <div class="project-info">
+            <h3>Restaurant Website</h3>
+            <p>Website and branding for a high-end restaurant.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Live</a>
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+  
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Location</h3>
+              <p>Arama Road,Amunugama,Nikadalupotha</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <p>ndjdesign.m@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Phone</h3>
+              <p>+94 72 356 0843</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="far fa-clock"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Working Hours</h3>
+              <p>Mon - Fri: 9am - 6pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+           
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Footer Section -->
+<footer id="footer" class="footer-section">
+  <div class="footer-waves">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#0f172a" fill-opacity="1" d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,202.7C672,203,768,181,864,181.3C960,181,1056,203,1152,202.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+  </div>
+  
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-info">
+        <div class="footer-logo">
+          <h3>NIPUNA</h3>
+          <p>Web Designer & Developer</p>
+        </div>
+        <p class="footer-desc">Creating stunning digital experiences that blend creativity with functionality.</p>
+        <div class="footer-newsletter">
+          <h4>Stay Updated</h4>
+          <form id="newsletterForm" class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn primary-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-nav">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+          <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+          <li><a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a></li>
+          <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact">
+        <h4>Contact Info</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> Arama Road, Amunugama, Nikadalupotha</li>
+          <li><i class="fas fa-envelope"></i> ndjdesign.m@gmail.com</li>
+          <li><i class="fas fa-phone-alt"></i> +94 72 356 0843</li>
+          <li><i class="far fa-clock"></i> Mon - Fri: 9am - 6pm</li>
+        </ul>
+      </div>
+      
+      <div class="footer-social">
+        <h4>Follow Me</h4>
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+          <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="copyright">
+        <p>&copy; 2025 Nipuna Dananjaya. All Rights Reserved.</p>
+      </div>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="back-to-top">
+    <a href="#home" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+  </div>
+</footer>
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/94723560843" class="whatsapp-float" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
